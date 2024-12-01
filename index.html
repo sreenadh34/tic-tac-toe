@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-    
+    <header class="header">
+        <h1>Tic Tac Toe Game</h1>
+      </header>
+      <main>
+        <div class="message" id="message">Player X Turn</div>
+        <div class="board">
+          <div class="field" data-index="0"></div>
+          <div class="field" data-index="1"></div>
+          <div class="field" data-index="2"></div>
+          <div class="field" data-index="3"></div>
+          <div class="field" data-index="4"></div>
+          <div class="field" data-index="5"></div>
+          <div class="field" data-index="6"></div>
+          <div class="field" data-index="7"></div>
+          <div class="field" data-index="8"></div>
+        </div>
+        <div class="restart-div">
+          <button class="restart-btn" id="restartBtn">Restart</button>
+        </div>
+      </main>
+      <footer class="footer">
+        <p>Ready for another round?</p>
+      </footer>
+      <script src="index.js"></script>
 </body>
 </html>

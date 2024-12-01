@@ -1,0 +1,80 @@
+:root {
+    --font-color: #ffffff;
+    --neon-color: #39ff14;
+    --background-black: #0d1117;
+    --button-hover: #4caf50;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: var(--background-black);
+    color: var(--font-color);
+  }
+  
+  .header h1 {
+    color: var(--font-color);
+    font-size: 50px;
+    text-shadow: 0 0 10px var(--neon-color);
+  }
+  
+  .message {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 454px;
+    height: 454px;
+    margin: 20px auto;
+    border: 3px solid var(--neon-color);
+    background-color: transparent;
+    box-shadow: 0 0 20px var(--neon-color);
+  }
+  
+  .field {
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    border: 2px solid var(--neon-color);
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .field:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--neon-color);
+  }
+  
+  .field-x {
+    color: #00f6ff;
+  }
+  
+  .field-o {
+    color: #ff6700;
+  }
+  
+  
+  .restart-btn {
+    background-color: transparent;
+    border: 2px solid var(--neon-color);
+    color: var(--font-color);
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .restart-btn:hover {
+    background-color: var(--button-hover);
+    box-shadow: 0 0 10px var(--neon-color);
+    color: #000000;
+  }
+  
