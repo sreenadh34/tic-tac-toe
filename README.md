@@ -1,6 +1,6 @@
-# 🎮 Tic-Tac-Toe Fun Game  
+# 🎮 Tic-Tac-Toe 
 
-Welcome to the **Tic-Tac-Toe Neon Edition**! A  classic game we all love.  
+Welcome to the **Tic-Tac-Toe ** A  classic game we all love.  
   
 ## 🎉 How to Play  
 1. Player X always starts first.  
